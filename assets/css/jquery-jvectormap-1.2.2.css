@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.jvectormap-label { position: absolute; display: none; border-radius: 3px; background: rgb(41, 41, 41); color: white; font-size: smaller; padding: 3px; }
+
+.jvectormap-zoomin, .jvectormap-zoomout { position: absolute; left: 10px; background: rgb(255, 255, 255); border: 1px solid rgb(225, 225, 225); color: rgb(52, 152, 219); cursor: pointer; text-align: center; height: 24px; line-height: 24px; width: 24px; font-size: 0.75em; }
+
+.jvectormap-zoomin { top: 10px; border-radius: 3px 3px 0px 0px; }
+
+.jvectormap-zoomout { top: 33px; border-radius: 0px 0px 3px 3px; }
+
+.jvectormap-zoomin:hover, .jvectormap-zoomout:hover { background-color: rgb(238, 238, 238); }

@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.jqstooltip { position: absolute; left: 0px; top: 0px; visibility: hidden; background-color: rgba(0, 0, 0, 0.6); color: white; font: 10px arial, "san serif"; text-align: left; white-space: nowrap; padding: 5px; border: 1px solid white; z-index: 10000; }
+
+.jqsfield { color: white; font: 10px arial, "san serif"; text-align: left; }

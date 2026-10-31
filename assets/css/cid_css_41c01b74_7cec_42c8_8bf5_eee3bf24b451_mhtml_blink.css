@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+path { fill-opacity: 0.2; }
+
+.icon { background-image: none; }
+
+#open-button { background: var(--primary-button-fill-color); border: 0px; border-radius: 20px; box-sizing: border-box; color: var(--primary-button-text-color); cursor: pointer; display: inline-block; font-size: 0.875em; margin: 0px; padding: 8px 16px; text-decoration: none; transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1); user-select: none; }
+
+#open-button:active { background: var(--primary-button-fill-color-active); outline: 0px; }
+
+@media (max-width: 420px) {
+  #open-button { font-size: 0.825em; font-weight: 500; padding: 16px 24px; width: 100%; }
+}
+
+@media (max-width: 420px) and (orientation: portrait), (max-height: 560px) {
+  #open-button { font-size: 0.933em; margin: 6px 0px; }
+}

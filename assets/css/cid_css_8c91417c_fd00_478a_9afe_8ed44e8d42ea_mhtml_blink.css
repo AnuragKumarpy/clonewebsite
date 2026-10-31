@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.divspeci { font-weight: bold; border-radius: 7px; border: 1px solid rgb(206, 212, 218); transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+
+.bold-red { font-weight: bold; color: tomato; font-size: 14px; }
+
+.card { width: 80%; height: 80px; background: rgb(23, 102, 165); color: white; text-align: center; cursor: pointer; padding: 8px 2px 2px; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px; overflow: hidden; margin: auto; border-radius: 10px; }
+
+.card:hover { transform: scale(1.2); background: rgb(31, 138, 200); }
+
+.searchbox { width: 100%; background: var(--main-color); display: flex; justify-content: flex-end; cursor: pointer; border-bottom: 1px solid rgb(209, 209, 209); }
+
+.searchbox .search { width: 25%; height: 30px; background: white; margin-top: 14px; border-radius: 40px; }
+
+.collapsible { background: var(--main-color); color: white; cursor: pointer; padding: 18px; width: 50px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; outline: none; font-size: 15px; }
+
+.collapsible::after { content: "≣"; color: white; font-weight: bold; float: right; margin-left: 5px; }
+
+.active::after { content: "−"; }
+
+.content { max-height: 280px; height: auto; overflow: hidden auto; transition: max-height 0.2s ease-out; background: var(--main-color); padding: 0px 10px; width: 100%; position: relative; color: white !important; }
+
+.content::-webkit-scrollbar { display: none; }
+
+.hidescrollbar::-webkit-scrollbar { display: none; }
+
+.rightborder { cursor: pointer; border-left: 1px solid rgba(255, 255, 255, 0.36) !important; border-right: 1px solid rgba(255, 255, 255, 0.36) !important; }
+
+.rightborder:hover img, .rightborder p:hover ~ img { filter: drop-shadow(rgb(255, 255, 255) 1px 1px 10px) brightness(1.5); }
+
+.rightborder:hover { border-right: 2px solid white !important; border-left: 2px solid white !important; }
+
+.rowgap { margin-top: 1px; display: flex; gap: 5px; flex-flow: wrap; margin-left: 5px; }
+
+.rowgap::before { display: none; }
+
+.rowgap .col-sm-4 { width: 32.5% !important; }
+
+.mainContainer { padding: 0px 20px 20px; }
+
+.headline { font-size: 1.5rem !important; color: white; }
+
+@media (max-width: 770px) {
+  .rowgap .col-sm-4 { width: 100% !important; }
+  .headline { font-size: 1.2rem !important; }
+  .rowgap { flex-direction: column; row-gap: 10px; }
+  .searchbox .search { width: 70%; }
+}
+
+.gradiantcolor { background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(3, 169, 244)), to(rgb(41, 128, 185))); }

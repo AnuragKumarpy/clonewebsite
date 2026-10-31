@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#dvQUCLAlink { background-color: rgb(234, 41, 141); background-image: linear-gradient(to right bottom, rgb(234, 41, 141), rgb(234, 41, 141)); width: 80px; height: 80px; position: fixed; top: 0px; margin-left: 94%; margin-top: 5%; display: block; transition: top 0.3s; border-radius: 40px; z-index: 2000; }
+
+#dvQUCLAlink a { float: left; display: block; color: rgb(242, 242, 242); text-align: center; padding: 15px; text-decoration: none; font-size: 17px; }
+
+#dvQUCLAlink a:hover { background-color: rgb(221, 221, 221); color: black; }
+
+.close { cursor: pointer; position: absolute; top: 10%; right: 2%; padding: 5px 7px; transform: translate(0%, -50%); color: rgb(255, 255, 255); }
+
+.close:hover { color: rgb(255, 170, 204); }
+
+#ModelAcademicBank { z-index: 9996; }
+
+#modelGEUWorkshop { z-index: 9997; }
+
+#modelGEUNewStu { z-index: 9998; }

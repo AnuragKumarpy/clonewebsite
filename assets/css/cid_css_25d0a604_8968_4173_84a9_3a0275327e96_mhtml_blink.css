@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#iqacSurveyOverlay .iqac-opt:hover { background: rgb(238, 244, 250); }
+
+#iqacSurveyOverlay .iqac-opt input { transform: scale(1.25); margin-right: 10px; vertical-align: middle; }
+
+#iqacSurveyOverlay #iqacSurveySubmit:hover { background: rgb(18, 90, 140); }

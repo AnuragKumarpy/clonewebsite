@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+:root { --main-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #03a9f4), color-stop(100%, #2980b9)); }
+
+.sidenav { height: 100%; width: 0px; position: fixed; z-index: 999; top: 80%; left: 0px; background-color: rgb(41, 128, 185); overflow-x: hidden; transition: 0.5s; padding-top: 10px; }
+
+.sidenav a { padding: 0px; text-align: left; font-size: 15px; color: white; display: block; transition: 0.3s; }
+
+.sidenav a:hover { color: rgb(241, 241, 241); }
+
+.sidenav .closebtn { position: absolute; top: -15px; right: 0px; font-size: 36px; margin-left: 0px; }
+
+.sidenav a:hover { background: rgba(255, 0, 0, 0) !important; }
